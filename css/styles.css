@@ -178,7 +178,8 @@ nav a:hover, u:hover {
         display: block;
         position: absolute;
         top: 0.4cm;
-        left: 45%;
+        left: 50%;
+        right: 50%;
     }
 
     .dropdown-menu-icon {
