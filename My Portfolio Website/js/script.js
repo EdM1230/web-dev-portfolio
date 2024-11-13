@@ -7,9 +7,9 @@ function toggleMenu() {
     dropdownMenu.classList.toggle('active');
     var isMenuToggled = dropdownMenu.classList.contains('active');
     if(isMenuToggled) {
-        dropdownMenuImg.setAttribute('src', '/My Portfolio Website/assets/icons/close-svgrepo-com.svg');
+        dropdownMenuImg.setAttribute('src', '/assets/icons/close-svgrepo-com.svg');
     } else if(!isMenuToggled) {
-        dropdownMenuImg.setAttribute('src', '/My Portfolio Website/assets/icons/menu-svgrepo-com.svg');
+        dropdownMenuImg.setAttribute('src', '/assets/icons/menu-svgrepo-com.svg');
     }
     document.body.classList.toggle('no-scroll');
 }
@@ -104,11 +104,11 @@ projectContainers.forEach(container => {
         const ACCEPTABLE_RESOLUTION = 768;
         if(SELECTED_CONTAINER_ID === 1) {
             if(window.screen.width > ACCEPTABLE_RESOLUTION) {
-                IMG_ELEMENT.setAttribute('src', '/My Portfolio Website/images/PythonStockPredictionWebAppPreview-ezgif.com-optimize.gif');
+                IMG_ELEMENT.setAttribute('src', '/images/PythonStockPredictionWebAppPreview-ezgif.com-optimize.gif');
             } else {}
         } else if(SELECTED_CONTAINER_ID === 2) {
             if(window.screen.width > ACCEPTABLE_RESOLUTION) {
-                IMG_ELEMENT.setAttribute('src', '/My Portfolio Website/images/EzManagePreviewvideo-ezgif.com-video-to-gif-converter.gif');
+                IMG_ELEMENT.setAttribute('src', '/images/EzManagePreviewvideo-ezgif.com-video-to-gif-converter.gif');
             } else {}
         }
     });
@@ -118,11 +118,11 @@ projectContainers.forEach(container => {
         const ACCEPTABLE_RESOLUTION = 768;
         if(SELECTED_CONTAINER_ID === 1) {
             if(window.screen.width > ACCEPTABLE_RESOLUTION) {
-                IMG_ELEMENT.setAttribute('src', '/My Portfolio Website/images/Stock Prediction Web App.png');
+                IMG_ELEMENT.setAttribute('src', '/images/Stock Prediction Web App.png');
             } else {}
         } else if(SELECTED_CONTAINER_ID === 2) {
             if(window.screen.width > ACCEPTABLE_RESOLUTION) {
-                IMG_ELEMENT.setAttribute('src', '/My Portfolio Website/images/EZManage Web App.png');
+                IMG_ELEMENT.setAttribute('src', '/images/EZManage Web App.png');
             } else {}
         }
     });

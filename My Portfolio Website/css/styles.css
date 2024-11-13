@@ -749,15 +749,15 @@ nav a:hover, u:hover {
     }
 
     .project-container:nth-child(1)::before {
-        background-image: linear-gradient(rgb(34, 0, 0, 0.7), rgb(34, 0, 0, 0.7)), url('/My Portfolio Website/images/Stock Prediction Web App.png');
+        background-image: linear-gradient(rgb(34, 0, 0, 0.7), rgb(34, 0, 0, 0.7)), url('/images/Stock Prediction Web App.png');
     }
     
     .project-container:nth-child(2)::before {
-        background-image: linear-gradient(rgb(34, 0, 0, 0.7), rgb(34, 0, 0, 0.7)), url('/My Portfolio Website/images/EZManage Web App.png');
+        background-image: linear-gradient(rgb(34, 0, 0, 0.7), rgb(34, 0, 0, 0.7)), url('/images/EZManage Web App.png');
     }
     
     .project-container:nth-child(3)::before {
-        background-image: linear-gradient(rgb(34, 0, 0, 0.7), rgb(34, 0, 0, 0.7)), url('/My Portfolio Website/images/Portfolio Website Preview.png');
+        background-image: linear-gradient(rgb(34, 0, 0, 0.7), rgb(34, 0, 0, 0.7)), url('/images/Portfolio Website Preview.png');
     }
 
     .project-name {
