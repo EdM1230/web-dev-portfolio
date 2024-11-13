@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Edmund's Portfolio</title>
+</head>
+<body>
+    <main>
+        <div class="minimized-nav">
+            <div class="logo">
+                <img src="/My Portfolio Website/assets/icons/Personal Branding logo.png" alt="personal-brand-logo" onclick="window.location.reload();">
+            </div>
+            <div class="dropdown-menu-icon">
+                <img src="/My Portfolio Website/assets/icons/menu-svgrepo-com.svg" alt="menu-icon" onclick="toggleMenu()">
+            </div>
+            <div class="dropdown-menu">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+        <div class="main-content">
+            <nav>
+                <div class="logo">
+                    <img src="/My Portfolio Website/assets/icons/Personal Branding logo.png" alt="personal-brand-logo" onclick="window.location.reload();">
+                </div>
+                <div class="section-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <button class="contact-btn"><span>Contact</span></button>
+                </div>
+            </nav>
+            <section id="home">
+                <div class="intro-container">
+                    <div class="greeting">
+                        Hey there, I'm <br/>
+                        <span class="name">Edmund Lee.</span><br/>
+                    </div>
+                    <h3 class="intro-info-text">A Full-Stack <span>Web Developer</span> and <span>Data Enthusiast.</span></h3>
+                    <br/>
+                    <div class="slideshow-container">
+                        <!-- Slide -->
+                        <div class="slide">
+                            <img src="/My Portfolio Website/assets/icons/JavaScript.svg" alt="js-icon" class="tech-icon">
+                            <p class="tech-name">JavaScript</p>
+                        </div>
+                        <div class="slide">
+                            <img src="/My Portfolio Website/assets/icons/HTML5.svg" alt="html5-icon" class="tech-icon">
+                            <p class="tech-name">HTML5</p>
+                        </div>
+                        <div class="slide">
+                            <img src="/My Portfolio Website/assets/icons/CSS3.svg" alt="css3-icon" class="tech-icon">
+                            <p class="tech-name">CSS3</p>
+                        </div>
+                        <div class="slide">
+                            <img src="/My Portfolio Website/assets/icons/React.svg" alt="react-icon" class="tech-icon">
+                            <p class="tech-name">React</p>
+                        </div>
+                        <div class="slide">
+                            <img src="/My Portfolio Website/assets/icons/Express.svg" alt="express-icon" class="tech-icon">
+                            <p class="tech-name">ExpressJS</p>
+                        </div>
+                        <div class="slide">
+                            <img src="/My Portfolio Website/assets/icons/Node.js.svg" alt="nodejs-icon" class="tech-icon">
+                            <p class="tech-name">NodeJS</p>
+                        </div>
+                        <div class="slide">
+                            <img src="/My Portfolio Website/assets/icons/MySQL.svg" alt="mysql-icon" class="tech-icon">
+                            <p class="tech-name">MySQL</p>
+                        </div>
+                        <div class="slide">
+                            <img src="/My Portfolio Website/assets/icons/Python.svg" alt="python-icon" class="tech-icon">
+                            <p class="tech-name">Python</p>
+                        </div>
+                        <div class="slide">
+                            <img src="/My Portfolio Website/assets/icons/Flask.svg" alt="flask-icon" class="tech-icon">
+                            <p class="tech-name">Flask</p>
+                        </div>
+                
+                        <a class="prev" onclick="prevSlide()">&#10094;</a>
+                        <a class="next" onclick="nextSlide()">&#10095;</a>
+                    </div>
+                    <p class="intro-description">Building strategic and understandable websites and web apps.</p>
+                </div>
+            </section>
+
+            <section id="about">
+                <div class="about-container">
+                    <h2 class="about-me-title">About Me</h2>
+                    <div class="profile-pic">
+                        <img src="/My Portfolio Website/images/Profile pic.JPG" alt="profile-pic">
+                    </div>
+                    <div class="about-me-description scroll-in-left">
+                        <p>
+                            From a very young age, I have a passion for building things and making imaginations come to life through self-learning.
+                        </p>
+                        <p>
+                            Since then, I have tried many things such as building toys and machines from cardboard, building games in Scratch and creating, filming and editing YouTube videos using different kinds of software like Adobe Photoshop, After Effects and Davinci Resolve. 
+                        </p>    
+                        <p>    
+                            Today, I have managed to settle with building websites and web applications, developing machine learning projects and performing data analysis for problem-solving data projects.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects">
+                <h2 class="project-showcase-title">Projects</h2>
+                <div class="project-showcase">
+                    <div class="project-container scroll-in-left" id="1" >
+                        <div class="project-img">
+                            <img src="/My Portfolio Website/images/Stock Prediction Web App.png" alt="stock-prediction-project-preview">
+                        </div>
+                        <div class="project-info">
+                            <div class="project-name">Stock Movement Predictor Web App</div>
+                            <div class="project-description">
+                                <p>Made to visualize financial info of stock tickers with an integrated GPT system to summarize news retrieved from an API and a machine learning algorithm predicting the direction of a stock with 60% accuracy on average. This app is currently undeployed.</p>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/EdM1230/python-projects/tree/main/Python%20Stock%20Direction%20Prediction%20App"><img src="/My Portfolio Website/assets/icons/GitHub.svg" alt="github-icon" class="github-redirect-btn"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-container scroll-in-right" id="2">
+                        <div class="project-img">
+                            <img src="/My Portfolio Website/images/EZManage Web App.png" alt="project-management-app-preview">
+                        </div>
+                        <div class="project-info">
+                            <div class="project-name">Project Management Web App</div>
+                            <div class="project-description">
+                                <p>Made by me and my groupmates in university for an assignment, this is a project management web app that is built upon the most commonly used software development process, the Agile methodology. We named the web app "EZManage". This app is deployed but unshared for security purposes.</p>
+                            </div>
+                            <div class="project-links">
+                                <a href=""><img src="/My Portfolio Website/assets/icons/GitHub.svg" alt="github-icon" class="github-redirect-btn"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-container scroll-in-left" id="3">
+                        <div class="project-img">
+                            <img src="/My Portfolio Website/images/Portfolio Website Preview.png" alt="portfolio-website-preview">
+                        </div>
+                        <div class="project-info">
+                            <div class="project-name">Edmund's Portfolio Website</div>
+                            <div class="project-description">
+                                <p>My first website portfolio to display all of my past works to build trust and credibility.</p>
+                            </div>
+                            <div class="project-links">
+                                <a href=""><img src="/My Portfolio Website/assets/icons/GitHub.svg" alt="github-icon" class="github-redirect-btn"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact">
+                <h2 class="contact-section-title">Contact Me</h2>
+                <div class="contact-form-container">
+                    <div class="contact-parent">
+                        <div class="contact-child child-1 particle-container">
+                            <p class="call-to-action-text">Let's Make Your <span>Vision</span> Come To Life <span>Together</span>.</p>
+                            <div class="socials-mini-section">
+                                <p class="social-connect-text">Connect with Me:</p>
+                                <span class="social-icons">
+                                    <a href="https://github.com/EdM1230"><img src="/My Portfolio Website/assets/icons/GitHub.svg" alt="github-icon"></a>
+                                </span>
+                            </div>
+                            <!-- below are all particles for animation, (honestly do not know why I did this) -->
+                            <div class="particle"></div>
+                            <div class="particle"></div>
+                            <div class="particle"></div>
+                            <div class="particle"></div>
+                            <div class="particle"></div>
+                            <div class="particle"></div>
+                            <div class="particle"></div>
+                            <div class="particle"></div>
+                            <div class="particle"></div>
+                        </div>
+                        <div class="contact-child child-2">
+                            <div class="contact-form">
+                                <h3>Get back to you soon.</h3>
+                                <form method="POST" id="form">
+                                    <input type="hidden" name="access_key" value="e86927fb-b7b9-4b0a-a3bb-9477cb05d4cc">
+                                    <input id="text_name" type="text" placeholder="Name" name="name" required>
+                                    <input id="text_email" type="text" placeholder="Email" name="email" required>
+                                    <input id="text_company_name" type="text"  name="company-name" placeholder="Company Name">
+                                    <textarea id="txt_message" rows="4" cols="20" placeholder="Leave a meessage..." name="message" required></textarea>
+
+                                    <div class="submission-result"></div>                                          
+                                <br/>
+                                <button type="submit" id="btn_send">Send</button>
+                            </form> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                Designed & Built by Edmund Lee <br/>
+                <p>&#169; Copyright <span id="current-year"></span></p>
+            </footer>
+        </div>
+    </main>
+<script src="./js/script.js"></script>
+</body>
+</html>
