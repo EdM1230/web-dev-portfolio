@@ -5,13 +5,13 @@
 /* Scroll in trigger */
 .scroll-in-left {
     opacity: 0;
-    transform: translateX(50%);
+    transform: translateX(10%);
     transition: opacity 1s ease-in, transform 1s ease-in-out;
 }
 
 .scroll-in-right {
     opacity: 0;
-    transform: translateX(-50%);
+    transform: translateX(-10%);
     transition: opacity 1s ease-in, transform 1s ease-in-out;
 }
 
@@ -178,7 +178,7 @@ nav a:hover, u:hover {
         display: block;
         position: absolute;
         top: 0.4cm;
-        left: 47%;
+        left: 45%;
     }
 
     .dropdown-menu-icon {
