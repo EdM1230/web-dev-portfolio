@@ -18,6 +18,7 @@ links.forEach((link) => {
     link.addEventListener('click', () => {
         document.body.classList.remove('no-scroll');
         dropdownMenu.classList.remove('active');
+        dropdownMenuImg.setAttribute('src', '/assets/icons/menu-svgrepo-com.svg');
     })
 })
 
